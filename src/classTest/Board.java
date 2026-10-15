@@ -2,7 +2,7 @@ package classTest;
 
 //Board 클래스 -> 게시판 글 하나를 책임질 설계도
 //Board 클래스 -> 글 하나에 들어있는 모든 정보를 저장할 수 있는 변수가 모두 선언되어야 함
-public class Board {
+public class Board extends Member{
 	
 	private int boardNum; //게시판 글번호
 	private String boardTite; //게시판 제목
