@@ -20,6 +20,14 @@ public class Dog extends Animal{
 		this.grade = grade;
 	}
 	
+	@Override
+	public String bark(String sound) {
+
+		System.out.println("강아지가 짖는 소리 : " + sound);
+		
+		return sound;
+	}
+	
 	
 	
 	

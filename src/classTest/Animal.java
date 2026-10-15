@@ -16,5 +16,12 @@ public class Animal {
 		this.age = age;
 	}
 	
+	public String bark(String sound) {
+		
+		System.out.println(sound);
+		
+		return sound;
+	}
+	
 	
 }
